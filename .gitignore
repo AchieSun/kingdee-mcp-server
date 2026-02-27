@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+.trae/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# 压缩包
+*.zip
+*.rar
+
+# 开发计划（本地文档）
+mcp_dev_plan/
+
+# SDK示例参考
+node.js鉴权sdk示例/
+python鉴权sdk示例/
+
+# 官方文档
+官方文档/
+
+# 自然人准备工作（可能含敏感信息）
+自然人准备工作/

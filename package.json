@@ -1,0 +1,39 @@
+{
+  "name": "kingdee-mcp-server",
+  "version": "1.0.0",
+  "description": "金蝶云星辰MCP服务器 - 支持AI助手通过MCP协议访问金蝶云星辰API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "kingdee-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint src/**/*.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "kingdee",
+    "mcp",
+    "cloud-star",
+    "ai",
+    "assistant"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.13.5",
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "@types/node": "^25.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
